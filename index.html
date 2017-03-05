@@ -9,13 +9,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Tom Milner - Software Engineer</title>
+    <title>Tom Milner</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="css/freelancer.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -31,169 +31,234 @@
 
 </head>
 
-<body id="page-top" class="index">
+<body data-spy="scroll" data-target="#navbar">
 
-    <!-- Header -->
+    <!-- Header - Fixed Masthead style with navbar-->
     <header>
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.jpg" alt="">
-                    <div class="intro-text">
-                        <span class="name">Tom Milner</span>
-                        <hr class="star-light">
-                        <span class="skills">Software Engineer and Amature Photographer</span>
-                    </div>
+                <div class="col-lg-2 col-md-3 col-xs-12">
+                    <h3>Tom Milner</h3>
+                </div>
+                <div class="col-xs-12 col-lg-4 col-lg-offset-6 col-md-5 col-md-offset-4">
+                    <nav id="navbar">
+                        <ul role="navigation" class="nav">
+                            <li class="active"><a href="#about">About</a></li>
+                            <li><a href="#resume">Resume</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#contact">Contact Me</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </div>
     </header>
 
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row title">
+                <div class="col-lg-12 text-left">
+                    <h2>About Me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8">
+                    <p>Hello! I'm a software developer from the UK. You can normally find me traveling, working or taking photos. I've been working at IBM since graduating from Swansea University in 2015.</p>
+                    <p>At IBM I spend most of my time working in Java and C with a focus on performance optimisation.</p>
+                    <p>At home I like to experiment with the newer technologies such as Go, Angular.JS or what ever interesting thing I see on Hacker News.</p>
+                </div>
+                <div class="col-lg-4">
+                    <img class="img-me" src="img/profile.jpg" alt="Me :)">
+                </div>
+            </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <div class="container">
+            <div class="row title">
+                <div class="col-lg-12 text-left">
+                    <h2>Resume</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-xs-12 education">
+                    <span class="roll">Llanishen High School & Sixth Form, Cardiff</span>
+                    <span class="date">2003 - 2010</span>
+                </div>
+                <div class="col-lg-6 col-xs-12 education">
+                    <span class="roll">Swansea University <i>MEng Computing</i> - First Class Honours</span>
+                    <span class="date">2010 - 2014</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-xs-12 job">
+                    <span class="roll">Factory Worker - <b>Swan Mill Paper Company</b></span>
+                    <span class="date">2009</span>
+                </div>
+                <div class="col-lg-6 col-xs-12 job">
+                    <span class="roll">Freelance Web Developer</span>
+                    <span class="date">2009 - 2014</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-xs-12 job">
+                    <span class="roll">Intern - <b>M4 Systems</b></span>
+                    <span class="date">2012 - 2013</i></span>
+                </div>
+                <div class="col-lg-6 col-xs-12 job">
+                    <span class="roll">Software Engineer - <b>IBM Systems Storage, UK</b></span>
+                    <span class="date">2014 - Present</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Portfolio Grid Section -->
     <section id="portfolio">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
+            <div class="row title">
+                <div class="col-lg-12 text-left">
                     <h2>Portfolio</h2>
-                    <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
+                <div class="col-sm-4">
+                    <div class="portfolio-item">
+                        <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                            <img src="img/portfolio/Bakery.png" class="img-responsive" alt="">
+                        </a>
+                        <div class="overlay">
+                            <h1>Bakery Skate</h1>
                         </div>
-                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
-                    </a>
+                    </div>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
+                <div class="col-sm-4">
+                    <div class="portfolio-item">
+                        <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                            <img src="img/portfolio/OHF.png" class="img-responsive" alt="">
+                        </a>
+                        <div class="overlay">
+                            <h1>Owen Henderson Fitness</h1>
                         </div>
-                        <img src="img/portfolio/cake.png" class="img-responsive" alt="">
-                    </a>
+                    </div>
                 </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
+                <div class="col-sm-4">
+                    <div class="portfolio-item">
+                        <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                            <img src="img/portfolio/WhiteRock2.png" class="img-responsive" alt="">
+                        </a>
+                        <div class="overlay">
+                            <h1>White Rock Walking Trails</h1>
                         </div>
-                        <img src="img/portfolio/circus.png" class="img-responsive" alt="">
-                    </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="portfolio-item">
+                        <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                            <img src="img/portfolio/finalrobot.JPG" class="img-responsive" alt="">
+                        </a>
+                        <div class="overlay">
+                            <h1>Fuzzy Control Robot</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="portfolio-item">
+                        <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                            <img src="img/portfolio/DocumentArchive.png" class="img-responsive" alt="">
+                        </a>
+                        <div class="overlay">
+                            <h1>Document Archive</h1>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section class="success" id="about">
+    <!-- Contact Section -->
+    <section id="contact">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
+            <div class="row title">
+                <div class="col-lg-12 text-left">
+                    <h2>Contact Me</h2>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Hello! Looking for me? I'm a software developer from the UK. You can normally find me traveling, working or taking photos. I've been working at IBM since graduating from Swansea University in 2015.</p>
+                <div class="col-lg-12">
+                    <p>You can email me - <a href="mailto:mail@tmilner.co.uk">mail@tmilner.co.uk</a> - or message me on one of the social networks below!</p>
                 </div>
-                <div class="col-lg-4">
-                        <p>At IBM I spend most of my time working in Java and C with a focus on performance optimisation.</p> 
-                        <p>At home I like to experiment with the newer technologies such as Go, Angular.JS or what ever interesting thing I see on Hacker News.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="social list-inline">
+                        <li>
+                            <a href="https://github.com/Milner08" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.flickr.com/photos/milner07/" class="btn-social btn-outline"><i class="fa fa-fw fa-flickr"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/Milner08" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://uk.linkedin.com/in/tmilner" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                        </li>
+                        <li>
+                            <a href="http://stackoverflow.com/users/700400/tom-milner" class="btn-social btn-outline"><i class="fa fa-fw fa-stack-overflow"></i></a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </section>
-
 
     <!-- Footer -->
     <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4 col-md-offset-4">
-                        <h3>Stalk me on the internet
-                        <br><small>Its ok, honest.</small></h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="https://github.com/Milner08" class="btn-social btn-outline"><i class="fa fa-fw fa-github"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.flickr.com/photos/milner07/" class="btn-social btn-outline"><i class="fa fa-fw fa-flickr"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/Milner08" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://uk.linkedin.com/in/tmilner" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                            <li>
-                                <a href="http://stackoverflow.com/users/700400/tom-milner" class="btn-social btn-outline"><i class="fa fa-fw fa-stack-overflow"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; Tom Milner 2016
-                    </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    Copyright &copy; Tom Milner 2016
                 </div>
             </div>
         </div>
     </footer>
 
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
-        <a class="btn btn-primary" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
-        </a>
-    </div>
-
     <!-- Portfolio Modals -->
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
+                <div class="text-right close-btn">
+                    <h1>X</h1>
                 </div>
             </div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <h2>Bakery Skate</h2>
+                            <hr>
+                            <img src="img/portfolio/Bakery.png" class="img-responsive img-centered" alt="">
+                            <p>This website was deisgned for a independent skate brand.
+                              Unfortunatly the brand is no longer active, but the site provided them with a good web presness
+                              and the built in video gallery allowed visitors to check out all of their videos without leaving
+                              the site. All videos were automatically sourced from a YouTube playlists to make management as
+                              simple as possible.</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
+                                    <strong>Bakery Skate</strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
+                                    <strong>2011</strong>
                                 </li>
                                 <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
+                                    <strong>Web Development and Design</strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>
@@ -202,35 +267,32 @@
     </div>
     <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
+          <div class="close-modal" data-dismiss="modal">
+              <div class="text-right close-btn">
+                  <h1>X</h1>
+              </div>
+          </div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Owen Henderson Fitness</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <img src="img/portfolio/OHF.png" class="img-responsive img-centered" alt="">
+                            <p>This was the website for a local personal trainer. He has purchased a wordpress theme but needed
+                            help setting up the website and confiuring it for his needed. I worked with him to create the
+                            website he was looking for. As part of this I had to create wordpress plugins and customise the theme.</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
+                                    <strong>Owen Henderson Fitness</strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
+                                    <strong>2012</strong>
                                 </li>
                                 <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
+                                    <strong>Wordpress setup and customisation.</strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>
@@ -239,152 +301,107 @@
     </div>
     <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
+          <div class="close-modal" data-dismiss="modal">
+              <div class="text-right close-btn">
+                  <h1>X</h1>
+              </div>
+          </div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>White Rock Walking Trails</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <img src="img/portfolio/WhiteRock.png" class="img-responsive img-centered" alt="">
+                            <p>During my masters course I had to complete a group industry project. The result of this is the White Rock Trails app and website.
+                            It was created for the White Rock history society in Swansea bay. We held regular meetings with a representative from the society and
+                            worked to create something that met their requirements. The final app had the ability to design a walk and to follow an existing walk.
+                            Along the route information about the area could be displayed including historical accounts and photographs.</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
+                                    <strong>White Rock Trails, Swansea</strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
+                                    <strong>2014</strong>
                                 </li>
                                 <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
+                                    <strong>Web Development, REST API Development, Backend Development, Android App Development, Project Planning.</strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
+          <div class="close-modal" data-dismiss="modal">
+              <div class="text-right close-btn">
+                  <h1>X</h1>
+              </div>
+          </div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Fuzzy Logic - Self Balancing Robot.</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <img src="img/portfolio/finalrobot.JPG" class="img-responsive img-centered" alt="">
+                            <p></p>
                             <ul class="list-inline item-details">
                                 <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
+                                    <strong>N/A</strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
+                                    <strong>2013</strong>
                                 </li>
                                 <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
+                                    <strong>RobotC Development, Algorithm Design, Project Planning.</strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
     <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
+          <div class="close-modal" data-dismiss="modal">
+              <div class="text-right close-btn">
+                  <h1>X</h1>
+              </div>
+          </div>
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>RESTful Document Archive</h2>
                             <hr class="star-primary">
-                            <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                            <img src="img/portfolio/DocumentArchive.png" class="img-responsive img-centered" alt="">
+                            <p></p>
                             <ul class="list-inline item-details">
                                 <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
+                                    <strong>N/A</strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
+                                    <strong>2014</strong>
                                 </li>
                                 <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
+                                    <strong>Web Development, REST API Development, Backend Development, Android App Development, Project Planning.</strong>
                                 </li>
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Title</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
-                            <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">Start Bootstrap</a>
-                                    </strong>
-                                </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">April 2014</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -395,12 +412,7 @@
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="js/freelancer.min.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 
