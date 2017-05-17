@@ -91,18 +91,37 @@ section#about{
 }
 
 // Style for resume block.
-section#resume{
+section.colour_coded{
 	font-size:20px;
 	padding-left:20px;
-	.education{
+	small{
+		margin:0 10px 10px 0;
+	}
+	.key{
+		display:inline;
+		float:right;
+		font-size: 0.75em;
+		font-weight: 700;
+	}
+	.orange{
 		border-top:2px @brand-warning solid;
 	}
-	.job{
+	.blue{
 		border-top:2px @brand-info solid;
 	}
-	.patent{
+	.red{
 		border-top:2px @brand-danger solid;
 	}
+	.green{
+		border-top:2px @brand-success solid;
+	}
+	.dark-blue{
+		border-top:2px @brand-primary solid;
+	}
+	.gray{
+		border-top:2px @gray-dark solid;
+	}
+
 	span{
 		width: 100%;
 		display: block;
@@ -168,7 +187,7 @@ section#portfolio{
 	font-size: 20px;
 	list-style: none;
 	color: black;
-	margin: 10px;
+	margin: 30px 10px 30px 10px;
 	.btn-outline{
 		padding:0.5em;
 		border-radius: 50%;
@@ -193,4 +212,9 @@ section#portfolio{
 		margin-right:1em;
 		cursor: pointer;
 	}
+}
+
+footer{
+	border-top: 1px solid @gray-light;
+	padding: 20px;
 }

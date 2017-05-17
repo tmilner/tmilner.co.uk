@@ -84,20 +84,38 @@ section#about .img-me {
   border-radius: 50%;
   height: 300px;
 }
-section#resume {
+section.colour_coded {
   font-size: 20px;
   padding-left: 20px;
 }
-section#resume .education {
+section.colour_coded small {
+  margin: 0 10px 10px 0;
+}
+section.colour_coded .key {
+  display: inline;
+  float: right;
+  font-size: 0.75em;
+  font-weight: 700;
+}
+section.colour_coded .orange {
   border-top: 2px #f0ad4e solid;
 }
-section#resume .job {
+section.colour_coded .blue {
   border-top: 2px #5bc0de solid;
 }
-section#resume .patent {
+section.colour_coded .red {
   border-top: 2px #d9534f solid;
 }
-section#resume span {
+section.colour_coded .green {
+  border-top: 2px #5cb85c solid;
+}
+section.colour_coded .dark-blue {
+  border-top: 2px #337ab7 solid;
+}
+section.colour_coded .gray {
+  border-top: 2px #333333 solid;
+}
+section.colour_coded span {
   width: 100%;
   display: block;
   margin-top: -20px;
@@ -107,7 +125,7 @@ section#resume span {
   padding: 2px;
   padding-left: 7px;
 }
-section#resume span.date {
+section.colour_coded span.date {
   font-size: 0.6em;
 }
 section#portfolio .portfolio-item {
@@ -153,7 +171,7 @@ section#portfolio .portfolio-item:hover .overlay {
   font-size: 20px;
   list-style: none;
   color: black;
-  margin: 10px;
+  margin: 30px 10px 30px 10px;
 }
 .social .btn-outline {
   padding: 0.5em;
@@ -176,4 +194,8 @@ section#portfolio .portfolio-item:hover .overlay {
   float: right;
   margin-right: 1em;
   cursor: pointer;
+}
+footer {
+  border-top: 1px solid #777777;
+  padding: 20px;
 }
