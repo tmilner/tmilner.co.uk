@@ -199,3 +199,6 @@ footer {
   border-top: 1px solid #777777;
   padding: 20px;
 }
+.light {
+  font-weight: lighter;
+}
