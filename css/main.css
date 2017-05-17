@@ -61,7 +61,7 @@ header nav ul li a:hover {
   background: white !important;
 }
 header nav ul li.active {
-  border-bottom: #777777 1px solid;
+  border-bottom: #5cb85c 1px solid;
 }
 section {
   margin-top: -60px;
