@@ -65,12 +65,12 @@ header nav ul li.active {
 }
 section {
   margin-top: -60px;
-  padding-top: 60px;
+  padding-top: 80px;
 }
 @media (max-width: 991px) {
   section {
     margin-top: -120px;
-    padding-top: 120px;
+    padding-top: 140px;
   }
 }
 section .container {
