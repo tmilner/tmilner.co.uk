@@ -20,7 +20,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #5cb85c;
+  color: #777;
   outline: none;
 }
 h1,
@@ -61,7 +61,7 @@ header nav ul li a:hover {
   background: white !important;
 }
 header nav ul li.active {
-  border-bottom: #5cb85c 2px solid;
+  border-bottom: #777 2px solid;
 }
 section {
   margin-top: -60px;
