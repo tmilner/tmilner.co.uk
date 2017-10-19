@@ -138,6 +138,7 @@ section#portfolio .portfolio-item {
   overflow: hidden;
   position: relative;
   text-align: center;
+  z-index: 1;
   margin-bottom: 25px;
 }
 section#portfolio .portfolio-item .overlay {
@@ -145,6 +146,7 @@ section#portfolio .portfolio-item .overlay {
   height: 100%;
   position: absolute;
   overflow: hidden;
+  z-index: 2;
   top: 0;
   left: 0;
   padding: 20px;
@@ -165,6 +167,7 @@ section#portfolio .portfolio-item img {
 }
 section#portfolio .portfolio-item:hover .overlay {
   opacity: 0;
+  z-index: -10;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
