@@ -40,7 +40,7 @@ header {
   left: 0;
   background-color: white;
   text-align: center;
-  border-bottom: #777777 1px solid;
+  border-bottom: #777777 2px solid;
   z-index: 10;
 }
 header h3 {
@@ -76,7 +76,7 @@ section .container {
   margin-bottom: 1em;
 }
 section .container .title {
-  border-bottom: #eeeeee 1px solid;
+  border-bottom: #777777 2px solid;
   margin-bottom: 1em;
 }
 section#about .img-me {
@@ -99,22 +99,22 @@ section.colour_coded .key {
   font-weight: 700;
 }
 section.colour_coded .orange {
-  border-top: 2px #f0ad4e solid;
+  border-top: 3px #f0ad4e solid;
 }
 section.colour_coded .blue {
-  border-top: 2px #5bc0de solid;
+  border-top: 3px #5bc0de solid;
 }
 section.colour_coded .red {
-  border-top: 2px #d9534f solid;
+  border-top: 3px #d9534f solid;
 }
 section.colour_coded .green {
-  border-top: 2px #5cb85c solid;
+  border-top: 3px #5cb85c solid;
 }
 section.colour_coded .dark-blue {
-  border-top: 2px #9855d4 solid;
+  border-top: 3px #9855d4 solid;
 }
 section.colour_coded .gray {
-  border-top: 2px #333333 solid;
+  border-top: 3px #333333 solid;
 }
 section.colour_coded .mini {
   font-size: 0.7em;
