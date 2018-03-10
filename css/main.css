@@ -20,7 +20,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #777;
+  color: #5cb85c;
   outline: none;
 }
 h1,
@@ -64,7 +64,8 @@ header nav ul li a {
   padding: 0 !important;
 }
 header nav ul li a:hover {
-  background: white !important;
+  color: #5cb85c;
+  background-color: white !important;
 }
 header nav ul li.active {
   border-bottom: #777 2px solid;
@@ -97,6 +98,7 @@ section.colour_coded .key {
   float: right;
   font-size: 0.75em;
   font-weight: 700;
+  padding-top: 10px;
 }
 section.colour_coded .orange {
   border-top: 3px #f0ad4e solid;
@@ -124,7 +126,7 @@ section.colour_coded span {
   display: block;
   margin-top: -20px;
   background-color: white;
-  margin-left: 20px;
+  margin-left: 30px;
   margin-bottom: 20px;
   padding: 2px;
   padding-left: 7px;
@@ -175,20 +177,14 @@ section#portfolio .portfolio-item:hover .overlay {
 }
 .social {
   text-align: center;
-  font-size: 20px;
+  font-size: 40px;
   list-style: none;
   color: black;
-  margin: 30px 10px 30px 10px;
+  margin: 20px 10px;
 }
-.social .btn-outline {
-  padding: 0.5em;
-  border-radius: 50%;
-  color: black;
-  border: 2px solid black;
-}
-.social .btn-outline:hover {
+
+.social .btn-social:hover {
   color: #5cb85c;
-  border: 2px solid #5cb85c;
 }
 .portfolio-modal {
   margin: 5em;
