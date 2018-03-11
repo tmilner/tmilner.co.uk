@@ -131,6 +131,9 @@ section.colour_coded span {
   padding: 2px;
   padding-left: 7px;
 }
+section.colour_coded span a {
+  color: black;
+}
 section.colour_coded span.date {
   font-size: 0.6em;
 }
