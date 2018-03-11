@@ -9,9 +9,6 @@ body {
     margin-top: 120px;
   }
 }
-p {
-  font-size: 20px;
-}
 .small {
   font-size: 16px;
 }
@@ -71,6 +68,7 @@ header nav ul li.active {
   border-bottom: #777 2px solid;
 }
 section {
+  font-size: 18px;
   margin-top: 20px;
 }
 section .container {
