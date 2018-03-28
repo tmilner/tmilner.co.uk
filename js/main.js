@@ -1,6 +1,6 @@
 (function($) {
     "use strict";
-    var offset = 60;
+    var offset = 70;
 
     $('.nav li a').click(function(event) {
         event.preventDefault();
