@@ -272,10 +272,17 @@ footer {
   }
   footer {
     border-top: 0;
+  }
 }
 
 @media (max-width: 564px) {
   body {
     margin-top: 105px;
+  }
+}
+
+@media (max-width: 320px) {
+  body {
+    margin-top: 130px;
   }
 }
