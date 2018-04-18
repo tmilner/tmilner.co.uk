@@ -41,7 +41,8 @@ header {
   left: 0;
   background-color: white;
   text-align: center;
-  border-bottom: #777777 2px solid;
+  border-bottom: #bbbbbb 1px solid;
+  box-shadow: rgba(50, 50, 93, 0.0980392) 0px 15px 35px 0px, rgba(0, 0, 0, 0.0666667) 0px 5px 15px 0px;
   z-index: 10;
 }
 header h3 {
@@ -235,7 +236,8 @@ section#portfolio .portfolio-item:hover .overlay {
   cursor: pointer;
 }
 footer {
-  border-top: 2px solid #777777;
+  border-top: #bbbbbb 1px solid;
+  box-shadow: rgba(50, 50, 93, 0.0980392) 0px 15px 35px 0px, rgba(0, 0, 0, 0.0666667) 0px 5px 15px 0px;
   padding: 20px;
 }
 .light {
@@ -251,7 +253,7 @@ footer {
   section .container {
     margin-bottom: 0em;
     padding-top: 1em;
-    border-bottom: 2px solid #777777;
+    border-bottom: #bbbbbb 2px solid;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
     border-top-left-radius: 0px;
