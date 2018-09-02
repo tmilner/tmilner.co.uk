@@ -50,6 +50,7 @@ header {
 }
 header h3 {
   margin-top: 12px;
+  color: var(--primary);
 }
 header nav ul {
   font-size: 1.2em;
