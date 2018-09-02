@@ -1,4 +1,5 @@
 body {
+  --primary: #f0ad4e;
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
   font-family: 'Montserrat', sans-serif;
   overflow-x: hidden;
@@ -22,7 +23,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #f0ad4e;
+  color: var(--primary);
   outline: none;
 }
 h1,
@@ -74,11 +75,11 @@ header nav ul li a {
   padding: 0 !important;
 }
 header nav ul li a:hover {
-  color: #f0ad4e;
+  color: var(--primary);
   background-color: #222 !important;
 }
 header nav ul li.active {
-  border-bottom: #777 2px solid;
+  border-bottom: var(--primary) 2px solid;
 }
 footer{
   background-color: #222222;
@@ -161,7 +162,7 @@ section.colour_coded span {
   padding-right: 20px;
 }
 section.colour_coded span a {
-  color: #f0ad4e;
+  color: var(--primary);
 }
 section.colour_coded span.date, section.colour_coded span.level {
   font-size: 0.6em;
@@ -223,10 +224,10 @@ section#portfolio .portfolio-item:hover .overlay {
 }
 
 .social .btn-social:hover {
-  color: #f0ad4e;
+  color: var(--primary);
 }
 .orange-font{
-  color: #f0ad4e;
+  color: var(--primary);
 }
 .portfolio-modal {
   margin: 5em;
