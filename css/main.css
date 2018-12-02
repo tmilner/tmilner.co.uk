@@ -154,20 +154,23 @@ section.colour_coded .mini {
 section.colour_coded span {
   width: 100%;
   display: block;
-  margin-top: -20px;
+  margin-top: -18px;
   background-color: #222222;
   margin-left: 30px;
   margin-bottom: 20px;
   padding: 2px;
-  padding-left: 7px;
+  padding-left: 12px;
   padding-right: 20px;
 }
 section.colour_coded span a {
   color: var(--primary);
 }
-section.colour_coded span.date, section.colour_coded span.level {
+section.colour_coded .date, section.colour_coded span.level {
   font-size: 0.6em;
   color: #dddddd;
+}
+small.date{
+  padding-left:10px;
 }
 section#portfolio .container {
   padding-bottom: 5px;
