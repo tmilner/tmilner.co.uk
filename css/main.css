@@ -37,6 +37,9 @@ h6 {
   font-weight: 600;
   letter-spacing: 1px;
 }
+p {
+  line-height: 1.8em;
+}
 header {
   position: fixed;
   top: 0;
@@ -100,7 +103,17 @@ section .container {
 }
 section .container .title {
   border-bottom: #444444 2px solid;
-  margin-bottom: 1em;
+  margin: 0 1em 1em;
+  padding: 15px 0 20px;
+}
+section .container .title h2 {
+  font-size: 35px;
+  margin-left: -15px;
+  margin-right: 30px
+}
+
+section .container .section_text {
+  padding: 15px;
 }
 section#about .img-me {
   border-radius: 50%;
