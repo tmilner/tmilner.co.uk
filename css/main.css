@@ -34,7 +34,7 @@ h5,
 h6 {
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 900;
   letter-spacing: 1px;
 }
 p {
@@ -61,7 +61,7 @@ header nav ul {
   font-family: 'Raleway', sans-serif;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 900;
 }
 @media (min-width: 991px) {
   header nav ul {
@@ -134,6 +134,16 @@ section.colour_coded h2 {
   display: inline-block;
   margin-right: 15px;
 }
+.inline-logo {
+  float:left;
+}
+.bracket h1{
+  font-size: 5em;
+  padding: 0 5px;
+  font-weight: 600;
+  margin: 0;
+  line-height: 0.9em;
+}
 section.colour_coded small {
   margin: 0 10px 10px 0;
   color: #BBBBBB;
@@ -141,7 +151,7 @@ section.colour_coded small {
 section.colour_coded .key {
   display: inline;
   font-size: 0.70em;
-  font-weight: 700;
+  font-weight: 900;
   padding-top: 10px;
 }
 section.colour_coded .orange {
@@ -288,7 +298,7 @@ footer h4 {
 
 }
 .light {
-  font-weight: lighter;
+  font-weight: 900;
   font-size: 0.8em;
 }
 
