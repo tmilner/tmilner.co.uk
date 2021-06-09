@@ -16,14 +16,14 @@ services:
 
     tmilner:
         depends_on:
-            - reverseproxy
+            - nginx
         build: .
         image: tmilner
         restart: always
 
     monzo-customisation:
         depends_on:
-            - reverseproxy
+            - nginx
         image: monzo-customisation
         restart: always
 
