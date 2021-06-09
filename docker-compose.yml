@@ -4,10 +4,14 @@ services:
     reverseproxy:
         build: ./reverseproxy
         image: reverseproxy
+        command: "/bin/sh -c 'while :; do sleep 6h & wait $${!}; nginx -s reload; done & nginx -g \"daemon off;\"'"
         ports:
             - 80:80
             - 8081:8081
         restart: always
+        volumes:
+            - ./data/certbot/conf:/etc/letsencrypt
+            - ./data/certbot/www:/var/www/certbot
 
     tmilner:
         depends_on:
@@ -21,3 +25,10 @@ services:
             - reverseproxy
         image: monzo-customisation
         restart: always
+
+    certbot:
+        image: certbot/certbot
+        entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done;'"
+        volumes:
+            - ./data/certbot/conf:/etc/letsencrypt
+            - ./data/certbot/www:/var/www/certbot
