@@ -103,8 +103,8 @@ section .container {
   border-top-right-radius: 4px;
 }
 section .container .title {
-  border-bottom: #444444 2px solid;
-  margin: 0 1em 1em;
+  /* border-bottom: #444444 2px solid; */
+  margin: 0 1em 0;  /*removed 1em from bottom */
   padding: 15px 0 20px;
 }
 section .container .title h2 {
