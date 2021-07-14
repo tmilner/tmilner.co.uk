@@ -6,8 +6,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Tom Milner is a Staff Software Engineer at Medidata, a Scala expert and functional programming advocate.">
+    <meta name="author" content="Tom Milner">
 
     <title>Tom Milner</title>
 
@@ -27,25 +27,32 @@
 
 </head>
 
-<body data-spy="scroll" data-target="#navbar" data-offset="150">
+<body>
 
     <!-- Header - Fixed Masthead style with navbar-->
     <header>
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-3 col-xs-12">
+                <div id="title" class="col-lg-3 col-md-3 col-xs-12">
                     <div class="inline-logo bracket"><h1><</h1></div><div class="inline-logo"><h3>Tom<br>Milner</h3></div><div class="inline-logo bracket"><h1>></h1></div>
                 </div>
-                <div class="col-lg-8 col-lg-offset-1 col-md-9 col-xs-12">
-                    <nav id="navbar">
-                        <ul role="navigation" class="nav">
-                            <li class="active"><a href="#about">About</a></li>
-                            <li><a href="#experiance">Experience</a></li>
-                            <li><a href="#skills">Skills</a></li>
-                            <li><a href="#contact">Contact Me</a></li>
-                        </ul>
-                    </nav>
+                <div id="contact" class="col-lg-9 col-md-9 col-xs-12">
+                    <ul class="social list-inline">
+                        <li>
+                            <a href="mailto:mail@tmilner.co.uk" class="btn-social"><i class="fas fa-envelope-open"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/tmilner" class="btn-social"><i class="fab fa-github"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://uk.linkedin.com/in/tmilner" class="btn-social"><i class="fab fa-linkedin-in"></i></a>
+                        </li>
+                        <li>
+                            <a href="http://stackoverflow.com/users/700400/tom-milner" class="btn-social"><i class="fab fa-stack-overflow"></i></a>
+                        </li>
+                    </ul>
                 </div>
+                
             </div>
         </div>
     </header>
@@ -61,9 +68,9 @@
             <div class="row">
                 <div class="col-lg-8 section_text">
                     <p>Hello! I'm Tom and I'm a Staff Applications Engineer at <a href="http://mdsol.com">Medidata</a>.</p>
-                    <p>There I am creating <a href="https://www.mdsol.com/en/products/edge/site-payments">Edge Site Payments</a>, the payments soloution for Medidata's clinical trial platform, as well as shaping the way the company adopts GraphQL.</p>
-                    <p>I mainly work in Scala, writing microservices that manage everything from CRUD operations to complex event processing and rule engines. While working at Medidata I have developed a keen interest in DDD, clean architecture and event driven systems which I belive has lead to a well designed code base with clear seperation of business rules and technical concerns.</p>
-                    <p>Before Medidate I worked at IBM, where I worked with Java and C to develop the clustered IO Cacheing and RAID controller layers of <a href="https://www.ibm.com/uk-en/marketplace/virtualization-software">Spectrum Virtualize</a>, which is a storage virtualisation product available across a range of IBM hardware.</p>
+                    <p>There I helped create <a href="https://www.mdsol.com/en/products/edge/site-payments">Site Payments</a>, the payments solution for Medidata's clinical trial platform, and I am now shaping the way the company adopts GraphQL.</p>
+                    <p>I mainly work in Scala, writing microservices that manage everything from CRUD operations to complex event processing and rule engines. While working at Medidata I have developed a keen interest in DDD, clean architecture and event driven systems which I believe has lead to a well designed code base with clear seperation of business rules and technical concerns.</p>
+                    <p>Before Medidate I worked at IBM, where I worked with Java and C to develop the clustered IO Caching and RAID controller layers of <a href="https://www.ibm.com/uk-en/marketplace/virtualization-software">Spectrum Virtualize</a>, which is a storage virtualisation product available across a range of IBM hardware.</p>
                 </div>
                 <div class="col-lg-4">
                     <img class="img-me" src="img/profile.jpg" alt="Me :)">
@@ -110,7 +117,7 @@
                     <h2>Skills</h2>
                 </div>
             </div>
-            <div class="col-lg-3 col-sm-6 col-xs-12 colourcontainer section_text">
+            <div class="col-lg-3 col-sm-6 col-xs-12">
                 <div class="row orange item">
                     <span class="skill">Scala</span>
                 </div>
@@ -171,400 +178,17 @@
             </div>
         </div>
     </section>
-
-    <!-- Portfolio Grid Section -->
-    <!-- <section id="portfolio">
-        <div class="container">
-            <div class="row title">
-                <div class="col-lg-12 text-left">
-                    <h2>Personal Portfolio</h2>
-                </div>
-            </div>
-            <div class="row gallery section_text">
-                <div class="col-md-4">
-                    <div class="portfolio-item">
-                        <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
-                            <img src="img/portfolio/Monzo.svg" class="img-responsive" alt="" style="background-color: white;">
-                        </a>
-                        <div class="overlay">
-                            <h1>Monzo Extensions</h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="portfolio-item">
-                        <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
-                            <img src="img/portfolio/scratchmap.png" class="img-responsive" alt="">
-                        </a>
-                        <div class="overlay">
-                            <h1>Scratch Map!</h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="portfolio-item">
-                        <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                            <img src="img/portfolio/Bakery.png" class="img-responsive" alt="">
-                        </a>
-                        <div class="overlay">
-                            <h1>Bakery Skate</h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="portfolio-item">
-                        <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                            <img src="img/portfolio/WhiteRock2.png" class="img-responsive" alt="">
-                        </a>
-                        <div class="overlay">
-                            <h1>White Rock Walking Trails</h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="portfolio-item">
-                        <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                            <img src="img/portfolio/DocumentArchive.png" class="img-responsive" alt="">
-                        </a>
-                        <div class="overlay">
-                            <h1>Document Archive</h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="portfolio-item">
-                        <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                            <img src="img/portfolio/skatespots.png" class="img-responsive" alt="">
-                        </a>
-                        <div class="overlay">
-                            <h1>Skate Spots</h1>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="portfolio-item">
-                        <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                            <img src="img/portfolio/OHF.png" class="img-responsive" alt="">
-                        </a>
-                        <div class="overlay">
-                            <h1>Owen Henderson Fitness</h1>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-4">
-                    <div class="portfolio-item">
-                        <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                            <img src="img/portfolio/finalrobot.JPG" class="img-responsive" alt="">
-                        </a>
-                        <div class="overlay">
-                            <h1>Fuzzy Control Robot</h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <div class="row title">
-                <div class="col-lg-12 text-left">
-                    <h2>Contact Me</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 section_text">
-                    <ul class="social list-inline">
-                        <li>
-                            <a href="mailto:mail@tmilner.co.uk" class="btn-social"><i class="fas fa-envelope-open"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/tmilner" class="btn-social"><i class="fab fa-github"></i></a>
-                        </li>
-                        <li>
-                            <a href="https://uk.linkedin.com/in/tmilner" class="btn-social"><i class="fab fa-linkedin-in"></i></a>
-                        </li>
-                        <li>
-                            <a href="http://stackoverflow.com/users/700400/tom-milner" class="btn-social"><i class="fab fa-stack-overflow"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
+   
     <!-- Footer -->
     <footer class="text-center">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h4>Made with <i class="far fa-heart orange-font"></i> in London<br>&copy; Tom Milner 2016-2021.</h4> 
+                    <h4>&copy; Tom Milner 2016-2021.</h4> 
                 </div>
             </div>
         </div>
     </footer>
-    <!-- Portfolio Modals -->
-    <!-- <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="text-right close-btn">
-                    <h1>X</h1>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="modal-body">
-                            <h2>Monzo Extensions</h2>
-                            <hr>
-                            <img src="img/portfolio/Monzo.svg" class="img-responsive" alt="" style="background-color: white;">
-                            <p>I created a set of extension using the Monzo API, allows for custom tagging, stats and in-app notifications when daily budgets were exceeded.</p>
-                            <ul class="list-inline item-details">
-                                <li>Date:
-                                    <strong>2019</strong>
-                                </li>
-                                <li>Experiance:
-                                    <strong>Go lang. API Clients and service design.</strong>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="text-right close-btn">
-                    <h1>X</h1>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="modal-body">
-                            <h2>Bakery Skate</h2>
-                            <hr>
-                            <img src="img/portfolio/Bakery.png" class="img-responsive img-centered" alt="">
-                            <p>This website was deisgned for a independent skate brand.
-                              Unfortunatly the brand is no longer active, but the site provided them with a good web presness
-                              and the built in video gallery allowed visitors to check out all of their videos without leaving
-                              the site. All videos were automatically sourced from a YouTube playlists to make management as
-                              simple as possible.</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong>Bakery Skate</strong>
-                                </li>
-                                <li>Date:
-                                    <strong>2011</strong>
-                                </li>
-                                <li>Experiance:
-                                    <strong>Web Development and Design</strong>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-              <div class="text-right close-btn">
-                  <h1>X</h1>
-              </div>
-          </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="modal-body">
-                            <h2>Skate Spots</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/skatespots.png" class="img-responsive img-centered" alt="">
-                            <p></p>
-                            <ul class="list-inline item-details">
-                                <li>Date:
-                                    <strong>2011</strong>
-                                </li>
-                                <li>Experiance:
-                                    <strong>Ruby on Rails development. </strong>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-              <div class="text-right close-btn">
-                  <h1>X</h1>
-              </div>
-          </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="modal-body">
-                            <h2>Owen Henderson Fitness</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/OHF.png" class="img-responsive img-centered" alt="">
-                            <p>This was the website for a local personal trainer. He has purchased a wordpress theme but needed
-                            help setting up the website and confiuring it for his needed. I worked with him to create the
-                            website he was looking for. As part of this I had to create wordpress plugins and customise the theme.</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong>Owen Henderson Fitness</strong>
-                                </li>
-                                <li>Date:
-                                    <strong>2012</strong>
-                                </li>
-                                <li>Experiance:
-                                    <strong>Wordpress setup and customisation.</strong>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-              <div class="text-right close-btn">
-                  <h1>X</h1>
-              </div>
-          </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="modal-body">
-                            <h2>White Rock Walking Trails</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/WhiteRock.png" class="img-responsive img-centered" alt="">
-                            <p>During my masters course I had to complete a group industry project. The result of this is the White Rock Trails app and website.
-                            It was created for the White Rock history society in Swansea bay. We held regular meetings with a representative from the society and
-                            worked to create something that met their requirements. The final app had the ability to design a walk and to follow an existing walk.
-                            Along the route information about the area could be displayed including historical accounts and photographs.</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong>White Rock Trails, Swansea</strong>
-                                </li>
-                                <li>Date:
-                                    <strong>2014</strong>
-                                </li>
-                                <li>Experiance:
-                                    <strong>Web Development, REST API Development, Backend Development, Android App Development, Project Planning.</strong>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-              <div class="text-right close-btn">
-                  <h1>X</h1>
-              </div>
-          </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="modal-body">
-                            <h2>Fuzzy Logic - Self Balancing Robot.</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/finalrobot.JPG" class="img-responsive img-centered" alt="">
-                            <p></p>
-                            <ul class="list-inline item-details">
-                                <li>Date:
-                                    <strong>2013</strong>
-                                </li>
-                                <li>Experiance:
-                                    <strong>RobotC Development, Algorithm Design, Project Planning.</strong>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-              <div class="text-right close-btn">
-                  <h1>X</h1>
-              </div>
-          </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="modal-body">
-                            <h2>RESTful Document Archive</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/DocumentArchive.png" class="img-responsive img-centered" alt="">
-                            <p></p>
-                            <ul class="list-inline item-details">
-                                <li>Date:
-                                    <strong>2014</strong>
-                                </li>
-                                <li>Experiance:
-                                    <strong>Web Development, REST API Development, Backend Development, Android App Development, Project Planning.</strong>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-              <div class="text-right close-btn">
-                  <h1>X</h1>
-              </div>
-          </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="modal-body">
-                            <h2>Scratch Map!</h2>
-                            <hr class="star-primary">
-                            <img src="img/portfolio/scratchmap.png" class="img-responsive img-centered" alt="">
-                            <p></p>
-                            <ul class="list-inline item-details">
-                                <li>Date:
-                                    <strong>2017</strong>
-                                </li>
-                                <li>Experiance:
-                                    <strong>Web Development, REST API Development, Backend Development, Go Devlopment, Microservices.</strong>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
 
 </body>
 
