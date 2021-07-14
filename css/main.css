@@ -116,10 +116,11 @@ section .container .section_text {
   padding: 15px;
 }
 section#about .img-me {
+  float: right;
   border-radius: 50%;
   height: 250px;
-  padding-bottom: 1em;
-  margin: 0 auto;
+  padding: 0;
+  margin: 0 10px 20px 30px;
   display: block;
 }
 section.colour_coded {
@@ -269,6 +270,10 @@ footer h4 {
   }
   #title {
     justify-content: center;
+  }
+  section#about .img-me {
+    float: none;
+    margin: 0 auto 2em;
   }
 }
 
