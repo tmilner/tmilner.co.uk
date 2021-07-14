@@ -9,6 +9,17 @@ body {
   background-color: #444444;
   color:#ddd;
 }
+/* body {
+	--primary: #f0ad4e;
+	--secondary: #31343c;
+	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
+	font-family: 'Montserrat', sans-serif;
+	overflow-x: hidden;
+	position: relative;
+	margin-top: 100px;
+	background-color: #1a1b1e;
+	color: #ddd;
+} */
 .small {
   font-size: 16px;
 }
