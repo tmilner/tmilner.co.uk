@@ -48,9 +48,9 @@ header {
   left: 0;
   background-color: #222;
   text-align: center;
-  border-bottom: #333 1px solid;
   box-shadow: rgba(50, 50, 93, 0.0980392) 0px 15px 35px 0px, rgba(0, 0, 0, 0.0666667) 0px 5px 15px 0px;
   z-index: 10;
+  border-bottom: var(--primary) 2px solid;
 }
 header h3 {
   margin-top: 12px;
@@ -224,7 +224,7 @@ small.date{
 }
 
 footer {
-  border-top: #444444 1px solid;
+  border-top: var(--primary) 2px solid;
   box-shadow: rgba(50, 50, 93, 0.0980392) 0px 15px 35px 0px, rgba(0, 0, 0, 0.0666667) 0px 5px 15px 0px;
   padding: 20px;
 }
@@ -246,7 +246,7 @@ footer h4 {
   section .container {
     margin-bottom: 0em;
     padding-top: 1em;
-    border-bottom: #bbbbbb 2px solid;
+    border-bottom: var(--primary) 2px solid;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
     border-top-left-radius: 0px;
