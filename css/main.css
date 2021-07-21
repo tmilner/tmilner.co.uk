@@ -160,7 +160,7 @@ section.colour_coded h2 {
 }
 section.colour_coded small {
   margin: 0 10px 10px 0;
-  color: #BBBBBB;
+  font-size: 0.5em;
 }
 section.colour_coded .key {
   display: inline;
