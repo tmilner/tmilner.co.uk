@@ -154,6 +154,8 @@ section.colour_coded h2 {
   display: inline-block;
 }
 .bracket h1{
+  font-family: "source-code-pro", monospace;
+  font-weight: 900;
   font-size: 5em;
   padding: 5px;
   font-weight: 600;
