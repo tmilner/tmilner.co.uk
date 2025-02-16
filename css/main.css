@@ -75,7 +75,9 @@ header nav ul {
   text-transform: uppercase;
   font-weight: 900;
 }
-
+.nav-item {
+  padding: 0 5px;
+}
 header nav ul li {
   display: inline-block !important;
   line-height: 1.5;
