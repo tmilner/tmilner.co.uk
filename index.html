@@ -2,11 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Tom Milner is a Principal Software Engineer & Architect at Medidata, a Scala expert and functional programming advocate."
+      content="Tom Milner is a London-based Principal Software Engineer and Software Architect at Medidata, working on payments, distributed systems and data platforms."
     />
     <meta name="author" content="Tom Milner" />
 
@@ -15,316 +14,216 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="manifest" href="/site.webmanifest" />
 
-    <title>Tom Milner - Software Engineer</title>
+    <title>Tom Milner — Principal Software Engineer &amp; Architect</title>
 
-    <!-- CSS -->
     <link href="main.css" rel="stylesheet" />
-
-    <!-- Fonts -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"
-      integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat|Raleway:600,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://use.typekit.net/yfb7ghg.css" />
   </head>
 
   <body>
-    <header>
-      <div id="header-wrapper">
-        <div id="logo">
-          <div class="bracket"><h1>{</h1></div>
-          <div class="">
-            <h3>Tom<br />Milner</h3>
-          </div>
-          <div class="bracket"><h1>}</h1></div>
-        </div>
-        <div id="contact">
-          <ul class="social nav justify-content-end">
-            <li class="nav-item">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="logo" href="/" aria-label="Tom Milner — home">
+          <span class="bracket" aria-hidden="true">{</span>
+          <span class="logo-name">Tom<br />Milner</span>
+          <span class="bracket" aria-hidden="true">}</span>
+        </a>
+        <nav aria-label="Contact and social links">
+          <ul class="social">
+            <li>
               <a
                 href="mailto:mail@tmilner.co.uk"
-                title="Email Me"
-                class="btn-social"
-                ><i class="fas fa-envelope-open"></i
-              ></a>
+                aria-label="Email Tom"
+                title="Email Tom"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect x="3" y="5" width="18" height="14" rx="2" />
+                  <path d="m3 6 9 7 9-7" />
+                </svg>
+              </a>
             </li>
-            <li class="nav-item">
+            <li>
               <a
                 href="https://github.com/tmilner"
-                title="Checkout my Github"
-                class="btn-social"
-                ><i class="fab fa-github"></i
-              ></a>
+                aria-label="Tom on GitHub"
+                title="GitHub"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+                  <path
+                    d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.56.1.76-.24.76-.54v-2.07c-3.09.67-3.74-1.31-3.74-1.31-.5-1.28-1.23-1.62-1.23-1.62-1.01-.69.08-.68.08-.68 1.12.08 1.7 1.14 1.7 1.14.99 1.69 2.6 1.2 3.23.92.1-.72.39-1.2.71-1.48-2.47-.28-5.06-1.24-5.06-5.49 0-1.21.43-2.2 1.14-2.98-.11-.28-.49-1.41.11-2.94 0 0 .93-.3 3.05 1.14a10.6 10.6 0 0 1 5.55 0c2.12-1.44 3.05-1.14 3.05-1.14.6 1.53.22 2.66.11 2.94.71.78 1.14 1.77 1.14 2.98 0 4.26-2.6 5.2-5.08 5.48.4.35.75 1.02.75 2.06v3.05c0 .3.2.65.76.54A11.1 11.1 0 0 0 12 .9Z"
+                  />
+                </svg>
+              </a>
             </li>
-            <li class="nav-item">
+            <li>
               <a
-                href="https://uk.linkedin.com/in/tmilner"
-                title="Checkout my LinkedIn"
-                class="btn-social"
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
+                href="https://www.linkedin.com/in/tmilner/"
+                aria-label="Tom on LinkedIn"
+                title="LinkedIn"
+              >
+                <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+                  <path
+                    d="M5.3 7.5a2.3 2.3 0 1 0 0-4.6 2.3 2.3 0 0 0 0 4.6ZM3.4 9.3h3.8v11.8H3.4V9.3Zm6.1 0h3.6v1.6h.1c.5-.9 1.7-1.9 3.5-1.9 3.8 0 4.5 2.4 4.5 5.5v6.6h-3.8v-5.9c0-1.4 0-3.2-1.9-3.2s-2.2 1.5-2.2 3.1v6H9.5V9.3Z"
+                  />
+                </svg>
+              </a>
             </li>
           </ul>
-        </div>
+        </nav>
       </div>
     </header>
 
-    <container>
-      <content>
-        <!-- About Section -->
-        <section id="about">
-          <h2>About Me</h2>
-          <img class="img-me" src="/img/profile.jpg" alt="Me :)" />
-          <p>
-            Hello! I'm Tom and I'm a Principal Engineer and Software Architect
-            at <a href="http://mdsol.com">Medidata</a>.
-          </p>
-          <p>
-            There I am leading the Archtiecture and Engineering efforts for
-            Medidata's Clinical Trial Finanical Management solutions. Alongside
-            that I have worked on other projects such as helping the company
-            embrace GraphQL, improve SRE practices and the development a Scala
-            guide.
-          </p>
-          <p>
-            Before Medidata I worked at IBM, where I worked with Java and C to
-            develop the clustered IO Caching and RAID controller layers of
-            <a
-              href="https://www.ibm.com/uk-en/marketplace/virtualization-software"
-              >Spectrum Virtualize</a
-            >, which is a storage virtualisation product available across a
-            range of IBM hardware.
-          </p>
-        </section>
-        <section id="experience">
-          <h2>Experience</h2>
+    <main id="main" class="content">
+      <section id="about" aria-labelledby="about-heading">
+        <h1 id="about-heading">About me</h1>
+        <img
+          class="profile-photo"
+          src="img/profile.jpg"
+          alt="Tom Milner"
+          width="144"
+          height="144"
+        />
+        <p>
+          Hello! I'm Tom, a Principal Software Engineer and Software Architect
+          at <a href="https://mdsol.com">Medidata</a>, based in London.
+        </p>
+        <p>
+          I lead engineering and architecture across four core teams in Clinical
+          Trial Financial Management. I work on payments, distributed systems,
+          analytics, and platform modernisation, combining technical direction
+          with hands-on development.
+        </p>
+        <p>
+          I work with product and engineering leadership to understand the
+          problems we're solving and shape how we deliver them. I also helped
+          establish a Scala guild to share engineering knowledge among
+          Medidata's Scala engineers, and have spoken at London Scala meetups
+          and delivered training across Medidata's R&amp;D department.
+        </p>
 
-          <div class="experience-container">
-            <div class="orange item">
-              <div class="orange-tick"></div>
-              <div class="icon-container">
-                <i class="fas fa-user"></i>
-              </div>
-              <p>Principal Engineer & Architect</p>
-              <div class="icon-container">
-                <i class="fas fa-building"></i>
-              </div>
-              <a href="http://mdsol.com"><b>Medidata</b></a>
-              <div class="icon-container">
-                <i class="fa-solid fa-calendar-days"></i>
-              </div>
-              <p>2024-Present</p>
-            </div>
-            <div class="orange item">
-              <div class="orange-tick"></div>
-              <div class="icon-container">
-                <i class="fas fa-user"></i>
-              </div>
-              <p>Senior Staff Engineer</p>
-              <div class="icon-container">
-                <i class="fas fa-building"></i>
-              </div>
-              <a href="http://mdsol.com"><b>Medidata</b></a>
-              <div class="icon-container">
-                <i class="fa-solid fa-calendar-days"></i>
-              </div>
-              <p>2022-2024</p>
-            </div>
-            <div class="orange item">
-              <div class="orange-tick"></div>
-              <div class="icon-container">
-                <i class="fas fa-user"></i>
-              </div>
-              <p>Staff Engineer</p>
-              <div class="icon-container">
-                <i class="fas fa-building"></i>
-              </div>
-              <a href="http://mdsol.com"><b>Medidata</b></a>
-              <div class="icon-container">
-                <i class="fa-solid fa-calendar-days"></i>
-              </div>
-              <p>2020-2022</p>
-            </div>
-            <div class="orange item">
-              <div class="orange-tick"></div>
-              <div class="icon-container">
-                <i class="fas fa-user"></i>
-              </div>
-              <p>Senior Software Engineer</p>
-              <div class="icon-container">
-                <i class="fas fa-building"></i>
-              </div>
-              <a href="http://mdsol.com"><b>Medidata</b></a>
-              <div class="icon-container">
-                <i class="fa-solid fa-calendar-days"></i>
-              </div>
-              <p>2018-2020</p>
-            </div>
-            <div class="orange item">
-              <div class="orange-tick"></div>
-              <div class="icon-container">
-                <i class="fas fa-user"></i>
-              </div>
-              <p>Software Engineer</p>
-              <div class="icon-container">
-                <i class="fas fa-building"></i>
-              </div>
-              <a href="https://www-03.ibm.com/systems/uk/storage/"
-                ><b>IBM Systems Storage</b></a
-              >
-              <div class="icon-container">
-                <i class="fa-solid fa-calendar-days"></i>
-              </div>
-              <p>2016-2018</p>
-            </div>
-            <div class="orange item">
-              <div class="orange-tick"></div>
-              <div class="icon-container">
-                <i class="fas fa-user"></i>
-              </div>
-              <p>Graduate Software Engineer</p>
-              <div class="icon-container">
-                <i class="fas fa-building"></i>
-              </div>
-              <a href="https://www.ibm.com/uk-en"><b>IBM UK</b></a>
-              <div class="icon-container">
-                <i class="fa-solid fa-calendar-days"></i>
-              </div>
-              <p>2014-2016</p>
-            </div>
-            <div class="orange item">
-              <div class="orange-tick"></div>
-              <div class="icon-container">
-                <i class="fas fa-user"></i>
-              </div>
-              <p>MEng Computing</p>
-              <div class="icon-container">
-                <i class="fas fa-school"></i>
-              </div>
-              <a href="http://swansea.ac.uk/compsci"
-                ><b>Swansea University</b></a
-              >
-              <div class="icon-container">
-                <i class="fa-solid fa-calendar-days"></i>
-              </div>
-              <p>2010-2014</p>
-            </div>
-            <div class="orange item">
-              <div class="orange-tick"></div>
-              <div class="icon-container">
-                <i class="fas fa-user"></i>
-              </div>
-              <p>Intern</p>
-              <div class="icon-container">
-                <i class="fas fa-building"></i>
-              </div>
-              <a href="http://m4systems.com"><b>M4 Systems</b></a>
-              <div class="icon-container">
-                <i class="fa-solid fa-calendar-days"></i>
-              </div>
-              <p>2012 & 2013</p>
-            </div>
-          </div>
-        </section>
+        <h2 class="subsection-heading" id="work-heading">Selected work</h2>
+        <p class="section-note">Across my roles at Medidata.</p>
+        <ul class="work-list" aria-labelledby="work-heading">
+          <li>
+            <h3>Patient and site payments</h3>
+            <p>
+              Led architecture and engineering for both product suites,
+              coordinating delivery across teams and services and integrating
+              third-party payment systems.
+            </p>
+          </li>
+          <li>
+            <h3>Cost generation</h3>
+            <p>
+              Designed and built a near-real-time system that turns clinical
+              trial data into payments when contractual conditions are met, with
+              retrospective cost generation and self-correction.
+            </p>
+          </li>
+          <li>
+            <h3>Patient mobile integration</h3>
+            <p>
+              Led integration with myMedidata so patients can manage payment
+              preferences and tax information, and see payment amounts and
+              timing.
+            </p>
+          </li>
+          <li>
+            <h3>Reporting and modernisation</h3>
+            <p>
+              Built a unified Snowflake reporting platform across financial
+              management products. Led legacy product migrations onto the
+              Medidata platform and broke monoliths into more scalable
+              components.
+            </p>
+          </li>
+          <li>
+            <h3>Engineering practices and AI</h3>
+            <p>
+              Helped improve the software development lifecycle and delivery
+              times, and worked on an early GraphQL API prototype. I'm also
+              contributing to AI-based extraction of data from clinical sites'
+              PDF invoices to reduce payment administration.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section id="experience" aria-labelledby="experience-heading">
+        <h2 id="experience-heading">Experience</h2>
+        <div class="employer-heading">
+          <h3><a href="https://mdsol.com">Medidata Solutions</a></h3>
+          <p class="section-note">London · Feb 2018–Present</p>
+        </div>
+        <ol class="experience-list">
+          <li class="experience-item">
+            <h4>Principal Software Engineer</h4>
+            <span class="experience-dates">Apr 2024–Present</span>
+          </li>
+          <li class="experience-item">
+            <h4>Senior Staff Software Engineer</h4>
+            <span class="experience-dates">Apr 2022–Apr 2024</span>
+          </li>
+          <li class="experience-item">
+            <h4>Staff Application Engineer</h4>
+            <span class="experience-dates">Feb 2020–Apr 2022</span>
+          </li>
+          <li class="experience-item">
+            <h4>Senior Application Engineer</h4>
+            <span class="experience-dates">Feb 2018–Feb 2020</span>
+          </li>
+        </ol>
 
-        <!-- Skills Section -->
-        <!--
-            <section id="skills" class="colour_coded">
-                <div class="container">
-                    <div class="title">
-                        <div class="col-xs-12 text-left">
-                            <h2>Skills</h2>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 col-xs-12">
-                        <div class="orange item">
-                            <span class="skill">Scala</span>
-                        </div>
-                        <div class="orange item">
-                            <span class="skill">Functional Programming</span>
-                        </div>
-                        <div class="orange item">
-                            <span class="skill">Reactive Streams</span>
-                        </div>
-                        <div class="orange item">
-                            <span class="skill">Scrum & Other Agile Disciplines</span>
-                        </div>
-                        <div class="orange item">
-                            <span class="skill">TDD - Test Driven Design</span>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 col-xs-12">
-                        <div class="orange item">
-                            <span class="skill">C</span>
-                        </div>
-                        <div class="orange item">
-                            <span class="skill">Clean Code & Architecture</span>
-                        </div>
-                        <div class="orange item">
-                            <span class="skill">React</span>
-                        </div>
-                        <div class="orange item">
-                            <span class="skill">DDD - Domain Driven Design</span>
-                        </div>
-                        <div class="orange item">
-                            <span class="skill">Bash, Linux & Unix</span>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 col-xs-12">
-                        <div class="orange item">
-                            <span class="skill">Go</span>
-                        </div>
-                        <div class="orange item">
-                            <span class="skill">Microservice Architecture</span>
-                        </div>
-                        <div class="orange item">
-                            <span class="skill">Javascript</span>
-                        </div>
-                        <div class="orange item">
-                            <span class="skill">BDD - Behavior Driven Design</span>
-                        </div>
-                        <div class="orange item">
-                            <span class="skill">Kinesis Streams</span>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-sm-6 col-xs-12">
-                        <div class="orange item">
-                            <span class="skill">Java</span>
-                        </div>
-                        <div class="orange item">
-                            <span class="skill">Continuous Integration</span>
-                        </div>
-                        <div class="orange item">
-                            <span class="skill">AWS Kinesis</span>
-                        </div>
-                        <div class="orange item">
-                            <span class="skill">Docker</span>
-                        </div>
-                        <div class="orange item">
-                            <span class="skill">GraphQL</span>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
-      </content>
+        <div class="earlier-role">
+          <h3><a href="https://www.ibm.com/uk-en">IBM</a></h3>
+          <p class="section-note">Hursley, Winchester · Nov 2014–Jan 2018</p>
+          <h4>Software Developer · Graduate scheme</h4>
+          <p>
+            Worked on the cache module for IBM Storwize and SAN Volume
+            Controller storage systems using C and Java, and contributed to
+            testing frameworks.
+          </p>
+        </div>
+        <div class="earlier-role">
+          <h3><a href="">M4 Systems</a></h3>
+          <p class="section-note">Intern · 2012 &amp; 2013</p>
+        </div>
 
-      <!-- Footer -->
-    </container>
-    <footer>
-      <h4>&copy; Tom Milner 2025.</h4>
+        <h2 class="subsection-heading">Education</h2>
+        <h3><a href="https://swansea.ac.uk/compsci">Swansea University</a></h3>
+        <p class="section-note">2014</p>
+        <p>MEng Computer Science · First-class Honours</p>
+
+        <h2 class="subsection-heading" id="expertise-heading">
+          Technical expertise
+        </h2>
+        <dl class="expertise-list" aria-labelledby="expertise-heading">
+          <dt>Architecture</dt>
+          <dd>
+            Product and solution architecture, distributed systems, payments,
+            legacy modernisation, data and analytics
+          </dd>
+          <dt>Languages</dt>
+          <dd>Scala (primary), TypeScript, Java, Python, C</dd>
+          <dt>Frontend</dt>
+          <dd>React</dd>
+          <dt>Cloud and infrastructure</dt>
+          <dd>AWS, Kubernetes, Terraform</dd>
+          <dt>Messaging, data and APIs</dt>
+          <dd>Kafka, Amazon SQS, Snowflake, GraphQL, REST, RPC</dd>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; Tom Milner 2026.</p>
     </footer>
   </body>
 </html>
