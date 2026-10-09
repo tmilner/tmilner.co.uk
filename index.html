@@ -93,20 +93,23 @@
         />
         <p>
           Hello! I'm Tom, a Principal Software Engineer and Software Architect
-          at <a href="https://mdsol.com">Medidata</a>, based in London.
+          at <a href="https://mdsol.com">Medidata</a>, based in London. I build
+          reliable systems for problems where getting the money and the data
+          right really matters.
         </p>
         <p>
           I lead engineering and architecture across four core teams in Clinical
-          Trial Financial Management. I work on payments, distributed systems,
-          analytics, and platform modernisation, combining technical direction
-          with hands-on development.
+          Trial Financial Management, working on payments, distributed systems,
+          analytics and platform modernisation. I stay hands-on, so the
+          technical direction I set is grounded in what it takes to build and
+          run the systems.
         </p>
         <p>
-          I work with product and engineering leadership to understand the
-          problems we're solving and shape how we deliver them. I also helped
-          establish a Scala guild to share engineering knowledge among
-          Medidata's Scala engineers, and have spoken at London Scala meetups
-          and delivered training across Medidata's R&amp;D department.
+          I work closely with product and engineering leadership to understand
+          the problems we're solving and shape how we deliver them. I enjoy
+          sharing what I learn: I helped establish a Scala guild at Medidata,
+          have spoken at London Scala meetups, and have delivered training
+          across Medidata's R&amp;D department.
         </p>
 
         <h2 class="subsection-heading" id="work-heading">Selected work</h2>
@@ -115,25 +118,30 @@
           <li>
             <h3>Patient and site payments</h3>
             <p>
-              Led architecture and engineering for both product suites,
+              I lead architecture and engineering for both product suites,
               coordinating delivery across teams and services and integrating
-              third-party payment systems.
+              third-party payment systems, so sites and patients get paid
+              accurately and on time.
             </p>
           </li>
           <li>
-            <h3>Cost generation</h3>
+            <h3>Event-driven pipelines</h3>
             <p>
-              Designed and built a near-real-time system that turns clinical
-              trial data into payments when contractual conditions are met, with
-              retrospective cost generation and self-correction.
+              Designed and built a resilient, self-healing pipeline that
+              processes large batches from the data warehouse and streams the
+              results through a multi-stage process. Each stage consumes events
+              and emits new ones until the required results are generated, with
+              strong data correctness guarantees throughout. Workers scale out
+              to handle high throughput, and the pipeline recovers from failures
+              without manual intervention.
             </p>
           </li>
           <li>
             <h3>Patient mobile integration</h3>
             <p>
-              Led integration with myMedidata so patients can manage payment
-              preferences and tax information, and see payment amounts and
-              timing.
+              Led integration with myMedidata, giving patients one place to
+              manage payment preferences and tax information and to see what
+              they'll be paid and when.
             </p>
           </li>
           <li>
@@ -141,17 +149,17 @@
             <p>
               Built a unified Snowflake reporting platform across financial
               management products. Led legacy product migrations onto the
-              Medidata platform and broke monoliths into more scalable
+              Medidata platform and broke monoliths into smaller, more scalable
               components.
             </p>
           </li>
           <li>
             <h3>Engineering practices and AI</h3>
             <p>
-              Helped improve the software development lifecycle and delivery
-              times, and worked on an early GraphQL API prototype. I'm also
-              contributing to AI-based extraction of data from clinical sites'
-              PDF invoices to reduce payment administration.
+              Helped streamline the software development lifecycle to deliver
+              faster, and prototyped an early GraphQL API. I'm currently working
+              on AI-based extraction of data from clinical sites' PDF invoices
+              to cut down payment administration.
             </p>
           </li>
         </ul>
@@ -184,16 +192,20 @@
         <div class="earlier-role">
           <h3><a href="https://www.ibm.com/uk-en">IBM</a></h3>
           <p class="section-note">Hursley, Winchester · Nov 2014–Jan 2018</p>
-          <h4>Software Developer · Graduate scheme</h4>
-          <p>
-            Worked on the cache module for IBM Storwize and SAN Volume
-            Controller storage systems using C and Java, and contributed to
-            testing frameworks.
-          </p>
+          <ol class="experience-list">
+            <li class="experience-item">
+              <h4>Software Engineer</h4>
+              <span class="experience-dates">Nov 2015–Jan 2018</span>
+            </li>
+            <li class="experience-item">
+              <h4>Graduate Software Engineer</h4>
+              <span class="experience-dates">Nov 2014–Nov 2015</span>
+            </li>
+          </ol>
         </div>
         <div class="earlier-role">
-          <h3><a href="">M4 Systems</a></h3>
-          <p class="section-note">Intern · 2012 &amp; 2013</p>
+          <h3 class="unlinked-employer">M4 Systems</h3>
+          <p class="section-note">South Wales · Intern · 2012 &amp; 2013</p>
         </div>
 
         <h2 class="subsection-heading">Education</h2>
@@ -213,11 +225,14 @@
           <dt>Languages</dt>
           <dd>Scala (primary), TypeScript, Java, Python, C</dd>
           <dt>Frontend</dt>
-          <dd>React</dd>
+          <dd>React, TypeScript</dd>
           <dt>Cloud and infrastructure</dt>
-          <dd>AWS, Kubernetes, Terraform</dd>
+          <dd>AWS, Kubernetes, Helm, Terraform, Linux</dd>
           <dt>Messaging, data and APIs</dt>
-          <dd>Kafka, Amazon SQS, Snowflake, GraphQL, REST, RPC</dd>
+          <dd>
+            Kafka, Amazon SQS, PostgreSQL, Redis, Snowflake, Apache Iceberg,
+            GraphQL, REST, RPC
+          </dd>
         </dl>
       </section>
     </main>
