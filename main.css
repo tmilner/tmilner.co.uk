@@ -340,3 +340,25 @@ h4 {
     margin: 0 0 20px;
   }
 }
+
+.employer-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 10px;
+}
+
+.employer-parent {
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 400;
+}
+
+#experience h3 {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+#experience h4 {
+  font-weight: 500;
+}
