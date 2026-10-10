@@ -54,7 +54,14 @@ a:focus-visible {
   transform: translateY(0);
 }
 
+html {
+  scroll-padding-top: 88px;
+}
+
 .site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
   background: var(--surface);
   border-bottom: 3px solid var(--accent);
 }
@@ -361,4 +368,33 @@ h4 {
 
 #experience h4 {
   font-weight: 500;
+}
+
+/* Compact pinned header, toggled by the scroll script in index.html */
+.header-inner,
+.logo,
+.logo-name,
+.bracket {
+  transition: padding 0.2s ease, font-size 0.2s ease, gap 0.2s ease;
+}
+
+.site-header.is-compact .header-inner {
+  padding-block: 8px;
+}
+
+.site-header.is-compact .logo-name {
+  font-size: 16px;
+}
+
+.site-header.is-compact .bracket {
+  font-size: 36px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .header-inner,
+  .logo,
+  .logo-name,
+  .bracket {
+    transition: none;
+  }
 }

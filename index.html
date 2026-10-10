@@ -248,5 +248,30 @@
     <footer class="site-footer">
       <p>&copy; Tom Milner 2026.</p>
     </footer>
+    <script>
+      // Compact the pinned header once scrolled; the gap between thresholds
+      // stops it flickering when the header's own height change moves scrollY.
+      (function () {
+        var header = document.querySelector(".site-header");
+        var ticking = false;
+        function update() {
+          var y = window.scrollY;
+          if (y > 80) header.classList.add("is-compact");
+          else if (y < 20) header.classList.remove("is-compact");
+          ticking = false;
+        }
+        window.addEventListener(
+          "scroll",
+          function () {
+            if (!ticking) {
+              ticking = true;
+              requestAnimationFrame(update);
+            }
+          },
+          { passive: true }
+        );
+        update();
+      })();
+    </script>
   </body>
 </html>
